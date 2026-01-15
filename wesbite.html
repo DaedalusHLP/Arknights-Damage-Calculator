@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arknights Damage Calculator</title>
+    </head>
+
+    <body>
+        <h1>Damage Calculator</h1>
+
+        <script type="text/javascript" src="calculation.js"></script>
+
+        <label for="base_atk">Base Attack:</label>
+        <input type="number" id="base_atk" name="base_atk"><br>
+
+        <label for="base_atk_buff">Total Base Attack Buff Percentage:</label>
+        <input type="number" id="base_atk_buff" name="base_atk_buff"><br>
+
+        <label for="insp">Inspiration:</label>
+        <input type="number" id="insp" name="insp"><br>
+
+        <label for="atk_mult">Attack Multiplier:</label>
+        <input type="number" id="atk_mult" name="atk_mult"><br>
+
+        <h5 id="calced_damage">Calculated Damage: </h5>
+
+
+        <button onclick="init()">Calculate</button>
+    </body>
+</html>
